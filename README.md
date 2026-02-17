@@ -31,8 +31,8 @@ Seu objetivo: alcançar a cápsula de fuga antes que o alien — ou o próprio e
   Andar = raio de detecção médio.
   
   Correr = raio de detecção alto.
-  
-  Ofegante = pico de detecção.
+
+  Agachado = raio de detectação minímimo.
 
 *Movimento sempre gera risco. Não existe deslocamento 100% seguro.*
 

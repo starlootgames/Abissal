@@ -32,7 +32,7 @@ Seu objetivo: alcançar a cápsula de fuga antes que o alien — ou o próprio e
   
   Correr = raio de detecção alto.
 
-  Agachado = raio de detectação minímimo.
+  Agachado = raio de detectação mínimo.
 
 *Movimento sempre gera risco. Não existe deslocamento 100% seguro.*
 

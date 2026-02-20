@@ -1,244 +1,219 @@
+
 # Game Design Document
 
-Revision: 0.0.1
+### Overview
+
+#### Theme / Setting / Genre
+
+* **Tema**: Horror Sci-Fi com elementos de suspense e sobrevivência.
+* **Configuração**: O jogo se passa em uma nave espacial que vaga pelo vazio sideral, após a fuga de uma entidade alienígena. O ambiente da nave é sombrio, claustrofóbico e com sistemas danificados, criando uma atmosfera de tensão constante.
+* **Gênero**: Terror em primeira pessoa, com mecânicas de stealth e exploração.
+
+### Core Gameplay Mechanics Brief
+
+## Mecânica 1 – Movimento Baseado em Risco Sonoro: O tipo de movimentação do jogador (andar, correr ou agachar) influencia diretamente o nível de ruído gerado e o raio de detecção do alien.
+
+## Mecânica 2 – Sistema de Furtividade e Esconderijo: O jogador pode utilizar pontos específicos da nave para se esconder temporariamente, reduzindo a chance de detecção.
+
+## Mecânica 3 – Defesa Limitada (Taser): Ferramenta não letal que paralisa o alien por alguns segundos, utilizando bateria limitada.
+
+## Mecânica 4 – Sistema de Autodestruição com Timer: Ativar a autodestruição inicia uma contagem regressiva que aumenta drasticamente a agressividade do alien e a tensão ambiental.
+
+## Mecânica 5 – Detecção de Som via Microfone: Sons captados pelo microfone do jogador podem alertar o alien, integrando o ambiente real ao jogo.
+
+#### Targeted platforms
+
+* PC
+  
+#### Monetization model (Brief/Document)
+
+* **Monetização**: Modelo Premium – Jogo pago com uma única compra.
+* **Link**: Não aplicável (a monetização é baseada na venda direta do jogo).
+* Venda de trilha sonora: R$ 15,00
+* Custo do jogo: R$ 50,00
+* Livro de arte: R$ 15,00
+* Expansão: R$ 35,00
+* Patrocínios: R$ 1.000 (por empresa/marca)
 
 
-> GDD Template Written by: Benjamin “HeadClot” Stanley
+#### Project Scope
 
+* **Game Time Scale**:
 
-- Overview
-  - Theme / Setting / Genre
-  - Core Gameplay Mechanics Brief
-  - Targeted platforms
-  - Monetization model (Brief/Document)
-  - Project Scope
-  - Influences (Brief)
-    - <Influence #1>
-    - <Influence #2>
-    - <Influence #3>
-    - <Influence #4>
-  - The elevator Pitch
-  - Project Description (Brief):
-  - Project Description (Detailed)
-- What sets this project apart?
-  - Core Gameplay Mechanics (Detailed)
-    - <Core Gameplay Mechanic #1>
-    - <Core Gameplay Mechanic #2>
-    - <Core Gameplay Mechanic #3>
-    - <Core Gameplay Mechanic #4>
-- Story and Gameplay
-  - Story (Brief)
-  - Story (Detailed)
-  - Gameplay (Brief)
-  - Gameplay (Detailed)
-- Assets Needed
-  - 2D
-  - 3D
-  - Sound
-  - Code
-  - Animation
-- Schedule
-  - <Object #1>
-  - <Object #2>
-  - <Object #3>
-  - <Object #4>
+  * **Custo**: R$ 24380,00.
+  * **Tempo de Desenvolvimento**: 3-4 meses.
+* **Team Size**:
 
+  * **Equipe Principal**:
 
-# Overview
+    * Programador Principal: Responsável pela implementação das mecânicas de jogo, IA e sistema de física.
+    * Artista 3D: Criar os modelos dos personagens, nave e ambientes.
+    * Animador 3D: Responsável por animações 3D.
+  * **Equipe de Marketing**:
+    * Community Managers: Criar e manter a presença do jogo nas redes sociais.
+* **Licenças / Hardware / Outros Custos**:
 
+  * Licenciamento de software (3ds MAX, Unity6, Blender).
+  * Custos de servidores para testagem, se aplicável.
+* **Total Costs with breakdown**: R$ 2.000,00.
 
-## Theme / Setting / Genre
+#### Influences (Brief)
 
-<Insert Theme here>
+* **Influência #1**: *Alien, o Oitavo Passageiro* (1979)
 
-## Core Gameplay Mechanics Brief
+  * *Medium*: Filme
+  * *Explicação*: A atmosfera tensa e claustrofóbica, onde o jogador se sente caçado por uma criatura, é uma grande inspiração para o clima do jogo.
+* **Influência #2**: *Bladerunner* (1982)
 
-  - <Gameplay Mechanic #1>
-  - <Gameplay Mechanic #2>
-  - <Gameplay Mechanic #3>
-  - <Gameplay Mechanic #4>
+  * *Medium*: Filme
+  * *Explicação*: O mundo futurista e cyberpunk, com um ambiente isolado e apocalíptico, oferece uma base para o design da nave e o cenário em que o jogo se passa.
+* **Influência #3**: *Cyberpunk 2077* (2020)
 
-## Targeted platforms
-  - <Example Platform #1 Here>
-  - <Example Platform #2 Here>
-  - <Example Platform #3 Here>
+  * *Medium*: Jogo
+  * *Explicação*: A inspiração vem na criação de um mundo distópico e de alta tecnologia, mesclando o sci-fi com o terror e a exploração de ambientes.
+* **Influência #4**: *Resident Evil* (franquia)
 
-## Monetization model (Brief/Document) 
-  - Monetization Type (Premium, Paid Alpha/Beta/Final, Ad Driven, Micro-transactions, Subscription, etc.)
-  - Link to Monetization Document (How do you plan to monetize the game?)
+  * *Medium*: Jogo
+  * *Explicação*: As mecânicas de tensão constante, exploração e o uso de recursos limitados para defesa são uma forte influência para as mecânicas de jogo de terror.
 
-## Project Scope 
-  - Game Time Scale
-    - Cost? (How much will it cost?)
-    - Time Scale (How long will it take to make this game?)
-  - Team Size
-    - Core Team
-      - Team Member name?
-        - What does he/she do?
-        - Cost to employ them full time or part time
-      - etc. (List as many core team members as you need to)
-    - Marketing Team
-      - Team Member name?
-        - What does he/she do?
-        - Cost to employ them full time or part time
-      - Etc. (List as many marketing team members as you need to)
-    - Licenses / Hardware / Other Costs
-    - Total Costs with breakdown
+#### The elevator Pitch
 
-## Influences (Brief)
-  - Influence #1
-    - Medium (Television, Games, Literature, Movies, etc.)
-    - /Explain why this is an influence in 1 Paragraph or less/
-  - Influence #2
-    - Medium (Television, Games, Literature, Movies, etc.)
-    - /Explain why this is an influence in 1 Paragraph or less/
-  - Influence #3
-    - Medium (Television, Games, Literature, Movies, etc.)
-    - /Explain why this is an influence in 1 Paragraph or less/
-  - Influence #4>
-    - Medium (Television, Games, Literature, Movies, etc.)
-    - /Explain why this is an influence in 1 Paragraph or less/
+* "Um jogo de terror em primeira pessoa onde você é um contrabandista espacial preso em uma nave à deriva, caçado por um alienígena mortal, com tempo correndo contra você para escapar."
 
-## The elevator Pitch
+#### Project Description (Brief)
 
-[A one sentence pitch for your game.]
-Pretend that your were pitching your game to a executive going to the elevator. You have less than 60 Seconds.
+* **Descrição curta**:
+  Em um futuro dominado por megacorporações, um contrabandista espacial transporta uma entidade alienígena proibida, mas durante a viagem a criatura escapa e destrói os sistemas da nave. O piloto deve agora sobreviver, usando furtividade e inteligência para escapar da nave antes que o alien ou o próprio espaço o mate.
 
-## Project Description (Brief):
+#### Project Description (Detailed)
 
-[Two Paragraphs at least]
-[No more than three paragraphs]
+* **Descrição detalhada**:
+  O jogo segue Zadock, um contrabandista espacial que, após aceitar transportar uma forma de vida alienígena, se vê preso em sua nave quando a criatura escapa. A nave está danificada e a deriva no espaço profundo. O objetivo do jogador é explorar a nave para encontrar uma cápsula de fuga, enquanto é perseguido pela criatura hostil. O jogo combina elementos de stealth com mecânicas de sobrevivência e combate limitado, forçando o jogador a tomar decisões rápidas e a gerenciar recursos escassos, como baterias, enquanto lida com o ambiente hostil e as falhas nos sistemas da nave.
 
-## Project Description (Detailed)
+---
 
-[Four Paragraphs or more If needs be]
-[No more than six paragraphs]
+### What sets this project apart?
 
-# What sets this project apart?
-  - <Reason #1>
-  - <Reason #2>
-  - <Reason #3>
-  - <Reason #4>
-  - <etc.>
+* **Tensão constante** através da mecânica de som e movimento, criando uma experiência de medo crescente.
+* **IA adaptativa** do alien, que responde ao comportamento do jogador e se torna mais agressiva ao longo do jogo.
+* **Ambiente dinâmico** com a nave se deteriorando, forçando o jogador a agir rapidamente e adicionar urgência.
+* **Mecânica de autodestruição**, que aumenta a pressão do tempo e cria momentos decisivos durante a partida.
 
-## Core Gameplay Mechanics (Detailed)
-  - [Core Gameplay Mechanic #1]
-    - [Details] /Describe in 2 Paragraphs or less/
-    - [How it works] /Describe in 2 Paragraphs or less/
-  - [Core Gameplay Mechanic #2]
-    - [Details] /Describe in 2 Paragraphs or less/
-    - [How it works] /Describe in 2 Paragraphs or less/
-  - [Core Gameplay Mechanic #3]
-    - [Details] /Describe in 2 Paragraphs or less/
-    - [How it works] /Describe in 2 Paragraphs or less/
-  - [Core Gameplay Mechanic #4]
-    - [Details] /Describe in 2 Paragraphs or less/
-    - [How it works] /Describe in 2 Paragraphs or less/
+---
 
-# Story and Gameplay
+### Core Gameplay Mechanics (Detailed)
 
-## Story (Brief)
+#### **Mecânica 1: Movimento com risco**
 
-[The Summary or TL;DR version of below]
+* **Detalhes**: O jogador pode andar, correr ou se agachar para se mover pela nave. Cada tipo de movimento tem um impacto diferente no nível de detecção do alien. Correr faz barulho, enquanto andar e agachar reduzem o som, mas tornam o movimento mais lento.
+* **Como funciona**: Se o jogador correr, o alien tem um raio de detecção maior, mas se andar, o risco é reduzido. Se o jogador se agachar, ele diminui quase completamente a chance de ser detectado, mas também anda muito mais devagar.
 
-## Story (Detailed)
+#### **Mecânica 2: Esconder-se**
 
-[Go into as much detail as needs be]
-[Spare no detail]
-[Use Mind Mapping software to get your point across]
+* **Detalhes**: Existem pontos específicos na nave onde o jogador pode se esconder para escapar do alien.
+* **Como funciona**: O jogador deve parar de se mover e se esconder para evitar ser encontrado. No entanto, esses pontos não são 100% seguros, e o alien pode eventualmente detectar o esconderijo.
 
-## Gameplay (Brief)
+#### **Mecânica 3: Uso do Taser**
 
-[The Summary version of below]
+* **Detalhes**: O taser é uma ferramenta vital para paralisar temporariamente o alien.
+* **Como funciona**: O taser tem uma bateria limitada, que o jogador deve procurar pela nave. Usá-lo no alien o paralisa por alguns segundos, permitindo ao jogador escapar ou atacar.
 
-## Gameplay (Detailed)
+#### **Mecânica 4: Autodestruição**
 
-[Go into as much detail as needs be]
-[Spare no detail]
-[Combine this with the game mechanics section above]
+* **Detalhes**: Ativar a autodestruição da nave é um dos principais objetivos do jogador.
+* **Como funciona**: Quando a autodestruição é ativada, o timer começa a contar e o alien se torna mais agressivo. Isso adiciona uma pressão extra, forçando o jogador a tomar decisões rápidas.
 
-# Assets Needed
+---
 
-## 2D
-  - Textures
-    - Environment Textures
-  - Heightmap data (If applicable)
-    - List required data required - Example: DEM data of the entire UK.
-  - Etc.
+### Story and Gameplay
 
-## 3D
-  - Characters List
-    - Character #1
-    - Character #2
-    - Character #3
-    - etc.
-  - Environmental Art Lists
-    - Example #1
-    - Example #2 
-    - Example #3
-    - etc.
+#### Story (Brief)
 
-## Sound
-  - Sound List (Ambient)
-    - Outside
-      - Level 1
-      - Level 2 
-      - Level 3
-      - etc.
-    - Inside
-      - Level 1
-      - Level 2
-      - Level 3
-      - etc.
-  - Sound List (Player)
-    - Character Movement Sound List
-      - Example 1
-      - Example 2
-      - etc. 
-    - Character Hit / Collision Sound list
-      - Example 1
-      - Example 2
-      - etc.
-    - Character on Injured / Death sound list
-      - Example 1
-      - Example 2
-      - etc.
+* **Resumo**: Um contrabandista espacial deve sobreviver em uma nave danificada no vazio do espaço, fugindo de um alien hostil, enquanto tenta escapar antes que o tempo acabe e o espaço o devore.
 
-## Code
-  - Character Scripts (Player Pawn/Player Controller)
-    - Example
-  - Ambient Scripts (Runs in the background)
-    - Example
-  - NPC Scripts
-    - Example
+#### Story (Detailed)
 
-## Animation
-  - Environment Animations 
-    - Example
-  - Character Animations 
-    - Player
-      - Example 
-    - NPC
-      - Example
+* **Detalhes**: Zadock, um piloto de contrabando, é contratado para transportar uma misteriosa criatura alienígena para uma megacorporação. No entanto, a criatura escapa e destrói a nave. Agora, com sistemas falhando e o alien caçando-o, Zadock deve usar sua astúcia e habilidades de sobrevivência para encontrar a cápsula de fuga, enquanto lida com os falhas dos sistemas da nave e as falhas no fornecimento de recursos. O alien está sempre à espreita, e cada movimento pode ser fatal.
 
-# Schedule
-  - <Object #1>
-    - Time Scale
-      - Milestone 1
-      - Milestone 2
-      - Etc.
-  - <Object #2>
-    - Time Scale
-      - Milestone 1
-      - Milestone 2
-      - Etc.
-  - <Object #3>
-    - Time Scale
-      - Milestone 1
-      - Milestone 2
-      - Etc.
-  - <Object #4>
-    - Time Scale
-      - Milestone 1
-      - Milestone 2
-      - Etc.
+#### Gameplay (Brief)
+
+* **Resumo**: O jogador deve explorar a nave, gerenciar recursos, e usar furtividade para escapar do alien enquanto ativa a autodestruição e tenta chegar à cápsula de fuga.
+
+#### Gameplay (Detailed)
+
+* O jogador começa com recursos limitados e deve explorar a nave para encontrar baterias para o taser e outras ferramentas. O alien patrulha a nave, e a jogabilidade foca em evitar ser detectado. O jogador deve ativar a autodestruição para forçar uma fuga acelerada, mas isso aumenta o risco de ser pego pelo alien.
+
+---
+
+### Assets Needed
+
+#### 2D
+
+* **Texturas**: Texturas para a nave, interfaces e HUDs.
+* **Outros**: Ícones para itens (baterias, taser, etc.).
+
+#### 3D
+
+* **Personagens**:
+
+  * Zadock (Protagonista)
+  * Alien
+* **Ambientes**:
+
+  * Corredores da nave
+  * Salas de controle
+  * Áreas de esconderijo
+
+#### Sound
+
+* **Ambiente**:
+
+  * Sons de falhas nos sistemas
+  * Ruídos da nave
+  * Sons do alien se movendo
+* **Personagem**:
+
+  * Sons de respiração
+  * Sons de movimento (passos)
+
+* **Taser**:
+    * Sons de disparo
+    * Sons de recarga
+#### Code
+
+* **Scripts**:
+
+  * Script do jogador
+    
+  * IA do alien
+      
+  * Sistema de autodestruição
+    
+
+#### Animation
+
+* **Ambientes**:
+
+  * Luzes piscando
+  * Faíscas
+  * Portas
+* **Personagens**:
+
+  * Animações de movimento de Zadock
+  * Animações do Taser
+  * Animações de movimento e ataque do alien
+  * Animação de equipar item
+
+---
+
+### Schedule
+
+* **Fase 1**: Conceito e protótipo inicial
+
+  * **Milestones**: Design básico do nível, movimento do personagem, e IA do alien.
+* **Fase 2**: Desenvolvimento de recursos e som
+
+  * **Milestones**: Implementação do taser, esconderijos, e áudio ambiental.
+* **Fase 3**: Testes e ajustes finais
+
+  * **Milestones**: Testar balanceamento de dificuldade, ajustes de IA e implementação de autodestruição.

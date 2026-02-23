@@ -11,7 +11,8 @@ Seu objetivo: alcançar a cápsula de fuga antes que o alien — ou o próprio e
 ## Referências
   Alien, o oitavo passageiro (1979)
   Bladerunner (1982)
-  Cyberpunk 2077
+  Cyberpunk 2077 (2020)
+  Resident Evil (Franquia)
 
 ## Objetivos
   1. Encontrar a cabine de comando.

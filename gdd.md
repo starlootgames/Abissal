@@ -11,15 +11,20 @@
 
 ### Core Gameplay Mechanics Brief
 
-## Mecânica 1 – Movimento Baseado em Risco Sonoro: O tipo de movimentação do jogador (andar, correr ou agachar) influencia diretamente o nível de ruído gerado e o raio de detecção do alien.
+## Mecânica 1 – Movimento Baseado em Risco Sonoro: 
+  O tipo de movimentação do jogador (andar, correr ou agachar) influencia diretamente o nível de ruído gerado e o raio de detecção do alien.
 
-## Mecânica 2 – Sistema de Furtividade e Esconderijo: O jogador pode utilizar pontos específicos da nave para se esconder temporariamente, reduzindo a chance de detecção.
+## Mecânica 2 – Sistema de Furtividade e Esconderijo: 
+  O jogador pode utilizar pontos específicos da nave para se esconder temporariamente, reduzindo a chance de detecção.
 
-## Mecânica 3 – Defesa Limitada (Taser): Ferramenta não letal que paralisa o alien por alguns segundos, utilizando bateria limitada.
+## Mecânica 3 – Defesa Limitada (Taser): 
+  Ferramenta não letal que paralisa o alien por alguns segundos, utilizando bateria limitada.
 
-## Mecânica 4 – Sistema de Autodestruição com Timer: Ativar a autodestruição inicia uma contagem regressiva que aumenta drasticamente a agressividade do alien e a tensão ambiental.
+## Mecânica 4 – Sistema de Autodestruição com Timer: 
+  Ativar a autodestruição inicia uma contagem regressiva que aumenta drasticamente a agressividade do alien e a tensão ambiental.
 
-## Mecânica 5 – Detecção de Som via Microfone: Sons captados pelo microfone do jogador podem alertar o alien, integrando o ambiente real ao jogo.
+## Mecânica 5 – Detecção de Som via Microfone: 
+  Sons captados pelo microfone do jogador podem alertar o alien, integrando o ambiente real ao jogo.
 
 #### Targeted platforms
 
@@ -116,7 +121,7 @@
 #### **Mecânica 3: Uso do Taser**
 
 * **Detalhes**: O taser é uma ferramenta vital para paralisar temporariamente o alien.
-* **Como funciona**: O taser tem uma bateria limitada, que o jogador deve procurar pela nave. Usá-lo no alien o paralisa por alguns segundos, permitindo ao jogador escapar ou atacar.
+* **Como funciona**: O taser tem uma bateria limitada, que o jogador deve procurar pela nave. Usá-lo no alien o paralisa por alguns segundos, permitindo ao jogador escapar.
 
 #### **Mecânica 4: Autodestruição**
 
@@ -183,11 +188,17 @@
 
 * **Scripts**:
 
-  * Script do jogador
+  * Scripts do jogador
+      definem a movimentação, sistema de vida, inputs do usuário.
     
   * IA do alien
+      define movimentação, sistema de patrulha e ataque.
       
   * Sistema de autodestruição
+      define o timer, e o alarme.
+    
+  * Script do Taser
+      define a quantidade de munição, direção do disparo, tempo de paralisação do alien, controla as animações de 
     
 
 #### Animation
